@@ -1,0 +1,16 @@
+-Object Class is a built in class in java prsent in i\java.lang package.
+-Object class consists of 11 Non-Static Method which has to present in every object calss created in java.
+***Object class Non-Static Method
+1)public String toString(
+2)public boolean equals(Object obj)
+3)public int hashCode()
+4)public final void wait()   throws InterruptedException
+5)public final void wait(long mills) throws InterruptedException
+6)public final void wait(long mills,int nanos)  throws InterruptedException
+7)public final void notify()    throws InterruptedException
+8)public final void notifyAll()   throws InterruptedException
+9)protected Object clone() throws CloneNotSupportException
+10)public final getClass()
+11)public void finalize()      ------->Deprecated Method from jdk 8.0
+
+
