@@ -14,3 +14,31 @@
 11)public void finalize()      ------->Deprecated Method from jdk 8.0
 
 
+***toString() Method--->
+1)method of object class will bw overrided when we want to customize the object reference format.
+  (Customize means giving a new Format).
+2)toString() method of object class returns a String of the foloeing Format.
+   Format---> <FullyQualifiedClassName@HexadecimalNumber>
+(its responsible for the creation of object refrence format).
+
+***equals(Object obj) method---->
+1)to compare object references we can use equality Operator(==).
+2)The equality operator compares two object by their reference(Original Reference) but not by 
+   but not by their attributes.
+3)equals() method of Object class is use to compare two objects by their references which 
+   exactly work as equality Operator.
+4)equals() method of object class must be Overrided when we have to compare two object by their
+  attributes but not by their reference.
+
+***hashCode() method --->
+1)hashCode() method of object class returns a unique integer number for every Object created in 
+   java .
+2)we have to Override hashCode() method whenever we override equals() method because whenever 
+   equals() method  returns true (both Objects are same with their attributes), the hashCode()
+   method has to return same integer value for both the Objects. This is known as hashCode()
+   property,
+*Procedure-->
+1)when int,byte,short,long then we can add in hashcode() methods return statement.
+2)When char() type we can add then its add Charactes ASCII value.
+3)We can add hashCode() of String class.
+example-->Variable.hashCode();
